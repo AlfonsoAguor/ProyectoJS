@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Proyecto con JavaScript</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link id="theme" rel="stylesheet" type="text/css" href="css/green.css">
+
+	<!-- SLIDER y JQUERY-->
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <!-- Moment -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/locale/es.min.js"></script>
+
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+	<div id="selectorTheme">
+		<div id="toGreen"></div>
+		<div id="toRed"></div>
+		<div id="toBlue"></div>
+	</div>
+	<section id="global">
+		<!-- Cabecera -->
+		<header>
+			<div id="logo">
+				<h1>Proyecto JS</h1>
+			</div>
+			<div class="clearfix"></div>
+			<nav id="menu">
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="reloj.html">Reloj</a></li>
+					<li><a href="contact.html">Contacto</a></li>
+					<li><a href="about.html">Sobre mi</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Slider -->
+		<div id="slider">
+			<div class="galeria">
+				<div><img src="img/hojas.jpg" title="Hojas"></div>
+				<div><img src="img/rojo.jpg" title="Hojas"></div>
+				<div><img src="img/cielo.jpg" title="Hojas"></div>
+			</div>
+		</div>
+
+		<!-- Contenido -->
+		<section id="content">
+			<div id="posts">
+
+			</div>
+			<aside id="sidebar">
+				<div id="about">
+					<h4><span>Quien soy</span></h4>
+					<img src="img/caracol.jpg ">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				<div id="login">
+					<h4><span>Identificate</span></h4>
+					<form>
+						<label>Nombre: </label>
+						<input type="text" name="name" id="formName">
+						<label>Correo: </label>
+						<input type="text" name="correo" id="formCorreo">
+						<label>Contraseña: </label>
+						<input type="text" name="pass" id="formPass">
+						<br>
+						<input type="submit" name="entrar">
+					</form>
+				</div>
+			</aside>
+			<div class="clearfix"></div>
+		</section>
+	</section>
+
+	<footer>
+		Master de JavaScript
+
+		<a href="#" class="subir">Ir arriba</a>
+	</footer>
+</body>
+</html> 
